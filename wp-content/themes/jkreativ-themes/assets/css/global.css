@@ -1,0 +1,249 @@
+.meta-box-sortables .wp-media-buttons {
+  float: none !important;
+}
+
+#jkreativ_page_landing_metabox [data-vp-type="vp-notebox"], #jkreativ_portfolio_landing_metabox [data-vp-type="vp-notebox"]{
+  min-height: inherit;
+  padding: 10px 20px;
+}
+
+#jkreativ_page_landing_metabox [data-vp-type="vp-notebox"] i, #jkreativ_portfolio_landing_metabox [data-vp-type="vp-notebox"] i {
+  display: none;
+}
+
+.mce_woocommerce_shortcodes_button {
+	display: none !important;
+}
+
+.linked_product_tab.linked_product_options  {
+	display: none !important;
+}
+
+#mmpm_navigation li:not(:first-child) {
+	display: none;
+}
+
+#item_style, #submenu_drops_side {
+    display: none;
+}
+
+.logo_src.file_type, .logo_height.number_type {
+	display: none;
+}
+
+.options_mega_main_menu[mega_menu_logo] {
+	display: none;
+}
+
+.option.bootstrap.caption {
+	display: none;
+}
+
+#no_locations.caption.option {
+  display: block;
+  padding-top: 40px;
+}
+
+#backup {
+	display: none !important;
+}
+
+.reveal-modal-bg {
+	z-index: 10000 !important;
+} 
+
+#side_navigation_included_components,
+#side_navigation_first_level_item_height,
+.side_navigation_sticky_status,
+.side_navigation_sticky_offset,
+#side_navigation_direction,
+#side_navigation_mobile_minimized,
+#side_navigation_first_level_item_align,
+#top_navigation_included_components,
+#top_navigation_first_level_item_height,
+.top_navigation_sticky_status,
+.top_navigation_sticky_offset,
+#top_navigation_first_level_item_align,
+#top_navigation_direction,
+#top_navigation_mobile_minimized,
+#forced_integration,
+.postbox-container #general {
+	display: none !important;
+}
+
+.vp-imageupload img[src=""] {
+  display: none;
+}
+
+.colorpicker {
+	z-index: 999999 !important;
+}
+
+.meta-box-sortables select {
+    width: 100%;
+}
+
+.rs-update-notice-wrap {
+    display: none !important;
+}
+
+.vc-license-activation-notice {
+    display: none;
+}
+
+#setting-error-tgmpa em {
+    color: green;
+}
+
+.rs-update-notice-wrap {
+    display: none;
+}
+
+/* #visual_composer_content .vc_control.column_add,*/
+#visual_composer_content > .wpb_vc_row > .controls_row  > .vc_row_layouts,
+#visual_composer_content > .wpb_vc_row > .wpb_element_wrapper  > .wpb_row_container > .wpb_vc_column > .vc_controls > .vc_control.column_edit {
+    display : none;
+}
+
+
+#visual_composer_content > .wpb_vc_row > .wpb_element_wrapper  > .vc_row-fluid > .wpb_vc_column > .controls_column > .column_edit {
+    display : none;
+}
+
+
+.wp-admin .wpb_edit_form_elements .vc_row-fluid input,
+.wp-admin .wpb_edit_form_elements .vc_row-fluid select,
+.wp-admin .wpb_edit_form_elements .vc_row-fluid textarea {
+    padding: 4px 6px;
+    margin: 0;
+}
+
+.wp-admin .modal {
+    top: 70px;
+}
+
+.wp-admin .modal-backdrop {
+    background-position: center 100px;
+}
+
+.additionaldash:after {
+    content: " - ";
+}
+
+.bolder {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.ivc {
+    padding-right: 10px;
+}
+
+.vp-js-select2 {
+    width: 100%;
+}
+
+.slider-input {
+    float: right;
+    width: 60px !important;
+}
+
+.slider-wrapper {
+    padding: 15px 75px 5px 0;
+}
+
+.input-uploadfile .buttons [type="button"] {
+    width: 90px !important;
+    margin-top: 10px !important;
+}
+
+
+.vp-js-slider {
+    color: #222;
+    height: 0.8em;
+    position: relative;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.slider-element {
+    position: relative;
+}
+
+.vp-js-slider.ui-slider-horizontal, .slider-element.ui-slider-horizontal {
+    border: 1px solid #AAA;;
+}
+
+.vp-js-slider > div, .slider-element > div {
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+    display: block;
+    border: 0px none;
+    background: #ccc;
+}
+
+.vp-js-slider > a, .slider-element > a, .vp-js-slider > span, .slider-element > span {
+    border: 1px solid #666;
+    background: #888;
+    font-weight: normal;
+    color: #555;
+    top: -0.3em;
+    margin-left: -0.6em;
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.vc_panel .vp-js-slider > a,
+.vc_panel .slider-element > a,
+.vc_panel .vp-js-slider > span,
+.vc_panel .slider-element > span {
+    top: -9px;
+}
+
+.slider-element > a {
+    top: -0.6em;
+}
+
+.vp-js-slider > a:focus, .vp-js-slider > a:hover, .slider-element > a:focus, .slider-element > a:hover {
+    border: 1px solid #333;
+}
+
+.vc_panel-body input[type="checkbox"]:before {
+
+}
+
+/** hapus vc **/
+.plugins #wpbakery-visual-composer.active.update td,
+.plugins #wpbakery-visual-composer.active.update th {
+    background: #F7FCFE;
+}
+.plugins #wpbakery-visual-composer.active.update th.check-column {
+    border-left: 4px solid #2EA2CC;
+}
+
+.plugins #wpbakery-visual-composer + .plugin-update-tr {
+    display: none;
+}
+
+/** hapus woocommerce update **/
+.plugins #woocommerce.active.update td,
+.plugins #woocommerce.active.update th {
+    background: #F7FCFE;
+}
+.plugins #woocommerce.active.update th.check-column {
+    border-left: 4px solid #2EA2CC;
+}
+
+.plugins #woocommerce + .plugin-update-tr {
+    display: none;
+}
